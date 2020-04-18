@@ -11,6 +11,12 @@
           <div class="grid-content bg-purple-light">
             <Category/>
           </div>
+          <div class="grid-content bg-purple-light" style="margin-top:10px">
+            <HotArticles/>
+          </div>
+          <div class="grid-content bg-purple-light" style="margin-top:10px">
+            <Tags/>
+          </div>
         </el-col>
         <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="4"><div class="grid-content bg-touming"></div></el-col>
     </el-row>
@@ -19,12 +25,16 @@
 <script>
 import Articles from '../compoent/article'
 import Category from '../compoent/category'
+import HotArticles from '../compoent/hotArticles'
+import Tags from '../compoent/tags'
 
 export default {
   name: 'MainPage',
   components: {
     Articles,
-    Category
+    Category,
+    HotArticles,
+    Tags
   }
 }
 </script>

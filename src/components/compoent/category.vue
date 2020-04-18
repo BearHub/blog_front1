@@ -4,22 +4,28 @@
             placeholder="请输入内容">
         </el-input>
         <el-button icon="el-icon-search" circle></el-button>
+        <hr style="margin:15px 0px 0px 0px">
         <div class="elCard">
-            <el-card :body-style="{ padding: '13px'}" shadow="hover">
-                <a href="#">全部文章</a>
-            </el-card>
-            <el-card :body-style="{ padding: '13px'}" shadow="hover">
-                <a href="#">鼠标悬浮时显示</a>
-            </el-card>
-            <el-card :body-style="{ padding: '13px'}" shadow="hover">
-                <a href="#">鼠标悬浮时显示</a>
-            </el-card>
-            <el-card :body-style="{ padding: '13px'}" shadow="hover">
-                <a href="#">鼠标悬浮时显示</a>
-            </el-card>
-            <el-card :body-style="{ padding: '13px'}" shadow="hover">
-                <a href="#">鼠标悬浮时显示</a>
-            </el-card>
+            <div class="cates">
+                <a href="#" class="cate">测试文章</a>
+                <hr style="margin:14px 0px 0px 0px">
+            </div>
+            <div class="cates">
+                <a href="#" class="cate">测试文章</a>
+                <hr style="margin:14px 0px 0px 0px">
+            </div>
+            <div class="cates">
+                <a href="#" class="cate">测试文章</a>
+                <hr style="margin:14px 0px 0px 0px">
+            </div>
+            <div class="cates">
+                <a href="#" class="cate">测试文章</a>
+                <hr style="margin:14px 0px 0px 0px">
+            </div>
+            <div class="cates">
+                <a href="#" class="cate">测试文章</a>
+                <hr style="margin:14px 0px 0px 0px">
+            </div>
         </div>
     </div>
 </template>
@@ -31,23 +37,24 @@ export default {
 </script>
 
 <style scoped>
-.elCard a {
-    text-align: center;
+.cate {
     display: inline-block;
+    height:26px;
+    font-size: 23px;
     text-decoration-line: none;
     color:#787977;
-    width: 100%;
-    height: 100%;
+    padding-top: 5px;
+    margin-left:15px;
 }
 .elCard a:hover {
     color:#d7dbd3;
 }
 .elCard {
-    margin-top: 5px;
+    overflow: hidden;
     font-size: 15px;
 }
 .input {
-    width: 84%;
+    width: 83%;
 }
 .category {
     padding: 0px 10px;

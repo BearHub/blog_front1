@@ -166,7 +166,7 @@ export default {
     text-align: center;
     border-radius: 5px;
     display: inline-block;
-    width: 35px;
+    padding: 0px 5px;
     height: 25px;
     background: #787977;
     color: #ffffff;

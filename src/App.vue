@@ -3,18 +3,20 @@
     <el-container>
       <el-header><navBar></navBar></el-header>
       <el-main><router-view /></el-main>
-      <el-footer>Footer</el-footer>
+      <el-footer><Footer/></el-footer>
     </el-container>
   </div>
 </template>
 
 <script>
 import navBar from '@/components/compoent/navBar'
+import Footer from '@/components/compoent/footer'
 
 export default {
   name: 'app',
   components: {
-    navBar
+    navBar,
+    Footer
   }
 }
 </script>
